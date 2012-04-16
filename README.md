@@ -15,9 +15,11 @@ I haven't really found a readily-available script from the Internet to get this 
 Technical Details
 -----------------
 
-* Generated from MySQL 5.1.57 ISAM tables
-* Default length for province/city names is varchar(300)
-* Used PHPMyAdmin 3.5.0 with ANSI compatibility for the SQL output
+* Generated from **MySQL 5.1.57 ISAM tables**
+* Default length for province/city names is **`varchar(300)`**
+* Primary/foreign keys are **`unsigned int(11)`**
+* Tables collated with **utf8\_unicode\_ci**
+* Used **PHPMyAdmin 3.5.0** with **ANSI** compatibility for the SQL output
 
 Usage
 -----
