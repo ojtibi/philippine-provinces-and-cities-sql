@@ -40,4 +40,4 @@ If you're using different table names and/or columns, use the quick Python gener
 Credits
 -------
 
-* Marconi Moreto (https://github.com/marconi)[https://github.com/marconi] for providing the Python dynamic template mappings
+* Marconi Moreto ([https://github.com/marconi](https://github.com/marconi)) for providing the Python dynamic template mappings
