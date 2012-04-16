@@ -6,13 +6,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 
-CREATE TABLE IF NOT EXISTS "cities" (
-  "id" int(11) unsigned NOT NULL AUTO_INCREMENT,
-  "name" varchar(300) COLLATE utf8_unicode_ci NOT NULL,
-  "province_id" int(11) unsigned NOT NULL,
-  "created" datetime NOT NULL,
-  "modified" datetime NOT NULL,
-  PRIMARY KEY ("id")
+CREATE TABLE IF NOT EXISTS `cities` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
+  `province_id` int(11) unsigned NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  PRIMARY KEY (`id`)
 );
 
 INSERT INTO `cities` (`id`, `name`, `province_id`, `created`, `modified`) VALUES
@@ -1655,12 +1655,12 @@ INSERT INTO `cities` (`id`, `name`, `province_id`, `created`, `modified`) VALUES
 (1635, 'Titay', 80, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (1636, 'Tungawan', 80, '2012-04-16 10:26:56', '2012-04-16 10:26:56');
 
-CREATE TABLE IF NOT EXISTS "provinces" (
-  "id" int(11) unsigned NOT NULL AUTO_INCREMENT,
-  "name" varchar(300) COLLATE utf8_unicode_ci NOT NULL,
-  "created" datetime NOT NULL,
-  "modified" datetime NOT NULL,
-  PRIMARY KEY ("id")
+CREATE TABLE IF NOT EXISTS `provinces` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  PRIMARY KEY (`id`)
 );
 
 INSERT INTO `provinces` (`id`, `name`, `created`, `modified`) VALUES
