@@ -1,9 +1,9 @@
-CREATE TABLE IF NOT EXISTS "tblname" (
-  "col0" int(11) unsigned NOT NULL AUTO_INCREMENT,
-  "col1" varchar(300) COLLATE utf8_unicode_ci NOT NULL,
-  "col2" datetime NOT NULL,
-  "col3" datetime NOT NULL,
-  PRIMARY KEY ("col0")
+CREATE TABLE IF NOT EXISTS `tblname` (
+  `col0` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `col1` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
+  `col2` datetime NOT NULL,
+  `col3` datetime NOT NULL,
+  PRIMARY KEY (`col0`)
 );
 
 INSERT INTO `tblname` (`col0`, `col1`, `col2`, `col3`) VALUES

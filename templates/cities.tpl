@@ -1,10 +1,10 @@
-CREATE TABLE IF NOT EXISTS "tblname" (
-  "col0" int(11) unsigned NOT NULL AUTO_INCREMENT,
-  "col1" varchar(300) COLLATE utf8_unicode_ci NOT NULL,
-  "col2" int(11) unsigned NOT NULL,
-  "col3" datetime NOT NULL,
-  "col4" datetime NOT NULL,
-  PRIMARY KEY ("col0")
+CREATE TABLE IF NOT EXISTS `tblname` (
+  `col0` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `col1` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
+  `col2` int(11) unsigned NOT NULL,
+  `col3` datetime NOT NULL,
+  `col4` datetime NOT NULL,
+  PRIMARY KEY (`col0`)
 );
 
 INSERT INTO `tblname` (`col0`, `col1`, `col2`, `col3`, `col4`) VALUES
@@ -756,7 +756,7 @@ INSERT INTO `tblname` (`col0`, `col1`, `col2`, `col3`, `col4`) VALUES
 (746, 'Bagulin', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (747, 'Balaoan', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (748, 'Bangar', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56');
-INSERT INTO `cities` (`id`, `name`, `province_id`, `created`, `modified`) VALUES
+INSERT INTO `tblname` (`col0`, `col1`, `col2`, `col3`, `col4`) VALUES
 (749, 'Bauang', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (750, 'Burgos', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (751, 'Caba', 39, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
@@ -1488,7 +1488,7 @@ INSERT INTO `cities` (`id`, `name`, `province_id`, `created`, `modified`) VALUES
 (1477, 'Alegria', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (1478, 'Bacuag', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (1479, 'Basilisa', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56');
-INSERT INTO `cities` (`id`, `name`, `province_id`, `created`, `modified`) VALUES
+INSERT INTO `tblname` (`col0`, `col1`, `col2`, `col3`, `col4`) VALUES
 (1480, 'Burgos', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (1481, 'Cagdianao', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
 (1482, 'Claver', 73, '2012-04-16 10:26:56', '2012-04-16 10:26:56'),
