@@ -24,4 +24,20 @@ Technical Details
 Usage
 -----
 
-Just call the file from your favorite CLI client, or import it using a database administration GUI of your choice. :)
+**Vanilla Mode**
+
+Just call the `philippine-provinces-and-cities.sql` from your favorite CLI client, or import it using a database administration GUI of your choice. :)
+
+**Python Generator**
+
+If you're using different table names and/or columns, use the quick Python generator:
+
+* Make sure you have the **cmd2** Python module by running `sudo easy_install cmd2`
+* Download the files from the master branch, or just clone it using `git clone https://github.com/ojtibi/philippine-provinces-and-cities-sql.git <targetdir>`
+* `cd` into your `<targetdir>`, and run `python ppc.py`. Use `table` to enter the values you need for your table names and/or columns, and use `spit` to generate, `quit` to exit
+* Use the generated `ppc.sql`. :)
+
+Credits
+-------
+
+* Marconi Moreto (https://github.com/marconi)[https://github.com/marconi] for providing the Python dynamic template mappings
