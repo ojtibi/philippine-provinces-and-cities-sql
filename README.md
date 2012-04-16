@@ -26,7 +26,7 @@ Usage
 
 **Vanilla Mode**
 
-Just call the `philippine-provinces-and-cities.sql` from your favorite CLI client, or import it using a database administration GUI of your choice. :)
+Just call the `philippine_provinces_and_cities.sql` from your favorite CLI client, or import it using a database administration GUI of your choice. :)
 
 **Python Generator**
 
@@ -40,4 +40,4 @@ If you're using different table names and/or columns, use the quick Python gener
 Credits
 -------
 
-* Marconi Moreto ([https://github.com/marconi](https://github.com/marconi)) for providing the Python dynamic template mappings
+* Marconi Moreto ([https://github.com/marconi](https://github.com/marconi)) for providing the Python generator and dynamic template mappings
