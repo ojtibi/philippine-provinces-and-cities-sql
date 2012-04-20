@@ -41,3 +41,17 @@ Credits
 -------
 
 * Marconi Moreto ([https://github.com/marconi](https://github.com/marconi)) for providing the Python generator and dynamic template mappings
+
+
+Changelog
+---------
+
+**0.2**
+
+* Removed timestamps from vanilla script and templates.
+
+**0.1**
+
+* Initial version, contains tables for Philippine Cities and Provinces
+* Fixed unicode issues for city values (ñ)
+* Pulled and merged Python generator script for custom table and field names, fixed misspelled template placeholders

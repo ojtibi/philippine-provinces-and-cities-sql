@@ -11,24 +11,24 @@ class CmdHandler(Cmd, object):
 
     tables = {
         'cities': {'tblname': 'cities',
-                   'cols': ['id', 'name', 'province_id', 'created', 'modified']},
+                   'cols': ['id', 'name', 'province_id']},
         'provinces': {'tblname': 'provinces',
-                      'cols': ['id', 'name', 'created', 'modified']}
+                      'cols': ['id', 'name']}
     }
 
     def __init__(self):
         super(CmdHandler, self).__init__()
         print """
 These are the default table definitions:
-cities:id,name,province_id,created,modified
-provinces:id,name,created,modified
+cities:id,name,province_id
+provinces:id,name
 
 use the `table` command and follow the same format to override
 and use the `spit` command to generate the sql file.
 
 i.e: to override the cities table, do:
-table cities=citiesx:idx,namex,province_idx,createdx,modifiedx
-table provinces=provincesx:idx,namex,createdx,modifiedx
+table cities=citiesx:idx,namex,province_idx
+table provinces=provincesx:idx,namex
 
 """
         self.prompt = ">>> "
