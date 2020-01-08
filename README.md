@@ -41,10 +41,15 @@ Credits
 -------
 
 * Marconi Moreto ([https://github.com/marconi](https://github.com/marconi)) for providing the Python generator and dynamic template mappings
+* Ben Adrian Sarmiento ([https://github.com/yowmamasita](https://github.com/yowmamasita)) for providing the ZIP codes
 
 
 Changelog
 ---------
+
+**0.3**
+
+* Added ZIP codes from @yowmamasita
 
 **0.2**
 
